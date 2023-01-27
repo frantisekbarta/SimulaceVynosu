@@ -14,7 +14,7 @@ namespace SimulaceVynosu
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.FileName = "vysledky.txt";
             saveFileDialog.DefaultExt = ".txt";
-            saveFileDialog.Filter = "Text documents (.txt)|*.txt";
+            saveFileDialog.Filter = "Textové dokumenty (*.txt)|*.txt";
             bool? result = saveFileDialog.ShowDialog();
             if (result == true)
             {
