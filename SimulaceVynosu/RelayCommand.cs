@@ -17,7 +17,8 @@ namespace SimulaceVynosu
         {
             if (execute == null)
                 throw new ArgumentNullException("execute");
-            _execute = execute; _canExecute = canExecute;
+            _execute = execute;
+            _canExecute = canExecute;
         }
 
         public bool CanExecute(object parameter)
